@@ -1,0 +1,548 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1650674211191510, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674211192812, "dur": 12935, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674211205958, "dur": 45540, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674211251522, "dur": 447531, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674211699054, "dur": 6105903, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674217804979, "dur": 10243, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674224766903, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674224767128, "dur": 12303, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674224779440, "dur": 47610, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674224827052, "dur": 325011, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674225152065, "dur": 407854, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674225559921, "dur": 12402, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674225572646, "dur": 22, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1650674224997088, "dur": 139328, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1650674224998069, "dur": 47847, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1650674225121369, "dur": 4262, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1650674225125635, "dur": 10773, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1650674225126434, "dur": 9358, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1650674225141009, "dur": 1221, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1650674225140047, "dur": 2209, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674225575848, "dur": 174, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1650674225195620, "dur":747, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225196372, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1650674225196417, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1650674225196432, "dur":410, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1650674225196865, "dur":470, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225197335, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225528781, "dur":152, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225528933, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225528963, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225528968, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225528982, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225528985, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225528992, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225528994, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529000, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529001, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529007, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529009, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529015, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529016, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529024, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529025, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529031, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529032, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529039, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529040, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529046, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529047, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529054, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529055, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529062, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529086, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225529138, "dur":1212, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1650674225197092, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225197341, "dur":3546, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225200895, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1650674225200899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225202162, "dur":252, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1650674225202415, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1650674225202447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225203209, "dur":1937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1650674225205149, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1650674225205247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225206384, "dur":4003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1650674225210439, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1650674225210525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225210532, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1650674225211753, "dur":11258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas.exe" }}
+,{ "pid":12345, "tid":1, "ts":1650674225223015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225223020, "dur":8689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas.exe" }}
+,{ "pid":12345, "tid":1, "ts":1650674225231726, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225231795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225231818, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225232914, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225233022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225233026, "dur":17518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225250565, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225250648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225250651, "dur":9098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225259776, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225259870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225259876, "dur":2996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225262903, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225263023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225263031, "dur":4716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225267776, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225267873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225267876, "dur":6216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225274126, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225274283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225274288, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225276048, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225276146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225276151, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225278655, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225278766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225278771, "dur":3313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225282116, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225282307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225282312, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225284621, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225284831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225284837, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225287372, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225287872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225287878, "dur":9138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225297051, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225297170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225297176, "dur":10776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225307975, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225308359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225308365, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225310927, "dur":32149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225343080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225343088, "dur":5139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225348260, "dur":29883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225378146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650674225378151, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650674225381038, "dur":147751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225197095, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225197344, "dur":3558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225200902, "dur":6575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1650674225207481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225207540, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1650674225208278, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1650674225208336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225208366, "dur":4593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1650674225212979, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1650674225213068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225213251, "dur":46439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1650674225259728, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225259830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225259836, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225263059, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225263195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225263201, "dur":4315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225267547, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225267816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225267821, "dur":6301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225274180, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225274288, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225274293, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225276128, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225276266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225276271, "dur":2722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225279024, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225279177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225279183, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225282246, "dur":16919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225299169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225299175, "dur":10795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225310004, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225310101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225310108, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225311132, "dur":38651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225349787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225349795, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225352517, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225352700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225352708, "dur":2903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225355653, "dur":18545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225374201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650674225374207, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650674225375533, "dur":153247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225197097, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225197347, "dur":3545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225200895, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1650674225201024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225204589, "dur":5824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1650674225210444, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1650674225210530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225210535, "dur":22724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1650674225233281, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225233357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225233361, "dur":17350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225250730, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225250801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225250805, "dur":9100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225259934, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225260028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225260034, "dur":4233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225264289, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225264369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225264374, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225267773, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225267841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225267844, "dur":6051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225273917, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225274016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225274092, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225275950, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225276050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225276056, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225278490, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225278604, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225278616, "dur":3314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225281963, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225282110, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225282144, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225284746, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225284846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225284851, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225287320, "dur":707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225288030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225288049, "dur":8963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225297044, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225297177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225297182, "dur":10793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225308008, "dur":30445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225338456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225338462, "dur":10217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225348712, "dur":9019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225357737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225357745, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225358739, "dur":34135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225392878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650674225392884, "dur":2407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650674225395312, "dur":133473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650674225197118, "dur":232, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650674225197350, "dur":3541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650674225200897, "dur":8554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1650674225209454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650674225209694, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1650674225210787, "dur":306280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1650674225517121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650674225517127, "dur":11609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1650674225528757, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1650674225528759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225197136, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225197354, "dur":3539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225200895, "dur":8074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1650674225208972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225209023, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1650674225210266, "dur":6663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1650674225216933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225216939, "dur":3381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1650674225220340, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225220416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225220592, "dur":10665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225231278, "dur":2087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225233368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225233371, "dur":17403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225250794, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225250860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225250864, "dur":9047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225259937, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225260031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225260036, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225263114, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225263197, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225263202, "dur":4265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225267492, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225268162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225268166, "dur":6450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225274645, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225274744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225274749, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225276478, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225276577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225276583, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225279161, "dur":9241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225288405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225288411, "dur":8679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225297120, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225297327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225297332, "dur":10456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225307821, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225307994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225308001, "dur":2676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225310709, "dur":27173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225337887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225337895, "dur":5732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225343656, "dur":9501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225353161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225353168, "dur":2584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225355779, "dur":16060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225371843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650674225371850, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650674225372935, "dur":155848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225197154, "dur":203, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225197357, "dur":3539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225200900, "dur":8126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1650674225209029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225209040, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1650674225210423, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1650674225210518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225210525, "dur":67036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1650674225277594, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225277677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225277698, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225280715, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225280808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225280815, "dur":2436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225283278, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225283369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225283376, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225284897, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225284991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225284996, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225287835, "dur":1111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225288948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225288954, "dur":9889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225298874, "dur":12207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225311085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225311091, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225312028, "dur":26226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225338258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225338264, "dur":9127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225347422, "dur":11415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225358840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225358848, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225360054, "dur":8754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225368811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225368818, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650674225370675, "dur":4943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1650674225375620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650674225375624, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1650674225376348, "dur":152438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225197172, "dur":188, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225197360, "dur":3540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225200900, "dur":8656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1650674225209558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225209582, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1650674225210932, "dur":86427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1650674225297361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225297366, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1650674225298724, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650674225298869, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225298888, "dur":9357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650674225308279, "dur":28718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650674225337001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225337008, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650674225338238, "dur":8473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650674225346716, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225346742, "dur":4088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650674225350877, "dur":11220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650674225362103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225362113, "dur":3884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650674225366036, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650674225366143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225366152, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650674225367700, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1650674225367736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225367743, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1650674225369465, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1650674225369496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225369501, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1650674225371194, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1650674225371226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650674225371230, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1650674225372717, "dur":156065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225197256, "dur":107, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225197363, "dur":3545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225200908, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1650674225201022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225204216, "dur":72943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1650674225277183, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225277270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225277275, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225280116, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225280200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225280206, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225283457, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225283575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225283582, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225285294, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225285375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225285379, "dur":2300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225287706, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225287838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225287845, "dur":8875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225296762, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225296930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225296936, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225299249, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225299391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225299397, "dur":10629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225310053, "dur":28584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225338640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225338645, "dur":9693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225348370, "dur":20920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225369293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650674225369301, "dur":3311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650674225372640, "dur":156139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225197276, "dur":89, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225197365, "dur":3536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225200901, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1650674225201019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225204204, "dur":6323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1650674225210559, "dur":54204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225264765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225267058, "dur":2935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225270012, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225270083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225270087, "dur":3882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225274001, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225274096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225274102, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225275879, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225275979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225275985, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225278284, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225278374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225278380, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225281927, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225282102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225282108, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225284600, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225284709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225284714, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225286413, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225286524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225286530, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225287956, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225288052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225288057, "dur":8973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225297064, "dur":15969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225313039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225313081, "dur":16784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225329886, "dur":8591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225338480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225338487, "dur":10470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225348992, "dur":23887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225372882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650674225372909, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650674225375351, "dur":153430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225197297, "dur":70, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225197367, "dur":3531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225200898, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1650674225201025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225204097, "dur":72938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1650674225277063, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650674225277133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225277137, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650674225279720, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650674225279807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225279812, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650674225282696, "dur":18022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650674225300720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225300726, "dur":9524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650674225310278, "dur":26481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650674225336764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225336775, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650674225337948, "dur":10646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650674225348618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225348626, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650674225351170, "dur":11816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650674225362989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225362997, "dur":3507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650674225366533, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1650674225366583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225366614, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1650674225368254, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1650674225368290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225368296, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1650674225370307, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1650674225370425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225370433, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1650674225372442, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1650674225372478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650674225372484, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1650674225373532, "dur":155246, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225197312, "dur":58, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225197370, "dur":3528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225200898, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1650674225201018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225204215, "dur":3488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1650674225207727, "dur":7567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1650674225215299, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225215333, "dur":4909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1650674225220278, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225220416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225220633, "dur":29879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225250535, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225250624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225250629, "dur":8947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225259607, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225259730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225259737, "dur":2877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225262641, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225262727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225262734, "dur":4551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225267315, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225267434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225267441, "dur":6165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225273638, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225273872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225273880, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225275763, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225275857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225275863, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225278088, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225278380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225278386, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225281094, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225281249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225281254, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225283601, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225283698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225283703, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225285671, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225285759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225285765, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225287698, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225287793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225287801, "dur":8887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225296730, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225296887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225296902, "dur":2817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225299748, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225299841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225299847, "dur":10314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225310193, "dur":52649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225362845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225362852, "dur":7839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650674225370727, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/resources.resource" }}
+,{ "pid":12345, "tid":11, "ts":1650674225370758, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225370782, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/resources.resource" }}
+,{ "pid":12345, "tid":11, "ts":1650674225372630, "dur":2744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1650674225375377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650674225375385, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1650674225376118, "dur":152673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650674225197326, "dur":46, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650674225197372, "dur":3522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650674225200896, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1650674225201234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650674225204054, "dur":6622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1650674225210705, "dur":151520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1650674225362228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650674225362275, "dur":8701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1650674225371008, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1650674225371037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650674225371042, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1650674225372549, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1650674225372582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650674225372587, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Felipe/Desktop/New folder/Desafio nas alturas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1650674225373558, "dur":155230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650674225531737, "dur":1587, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1650674225576070, "dur": 2082, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650674225572637, "dur": 5537, "ph": "X", "name": "Write chrome-trace events", "args": {} },
